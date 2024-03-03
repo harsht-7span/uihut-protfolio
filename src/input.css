@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#img-div {
+  position: relative;
+  padding-top: 122.267%;
+}
+
+#img-div > img {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+/* 
+button[id$="btn"]:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+} */
+
+/* #web:hover ~ #hoverImg {
+  opacity: 1;
+  z-index: 1;
+  transition: 0.3s;
+} */

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+    <script
+      src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"
+      defer
+    ></script>
+    <script src="./app.js" defer></script>
+    <script src="./test.js"></script>
+  </head>
+  <body class="overflow-x-hidden">
+    <div
+      id="menuListMobile"
+      class="z-10 fixed left-full w-full h-screen transition-all duration-500 text-white text-5xl"
+    >
+      <ul
+        id="menu"
+        class="flex flex-col gap-20 justify-center ab h-full my-auto"
+      >
+        <li><a href="#work">Work</a></li>
+        <li><a href="#latest">Services</a></li>
+        <li><a href="#amazing">AWWWARDS</a></li>
+        <li><a href="#footer">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <section id="header" class="bg-violet-500 h-fit">
+      <div id="hearderParent" class="container pt-7 sm:pt-11">
+        <header class="flex justify-between items-center">
+          <a href="#footer"
+            ><div id="brand" class="text-2xl font-bold">Harsh Tank</div></a
+          >
+          <div id="leftNav" class="flex justify-between items-center gap-10">
+            <a href="#latest">
+              <div
+                id="startproject"
+                class="group hidden sm:flex items-center justify-center gap-2"
+              >
+                <div
+                  id="circle-arrow "
+                  class="group-hover:scale-150 group-hover:rotate-90 w-5 h-5 rounded-full border-black border flex items-center justify-center transition-all duration-500"
+                >
+                  <img src="../assets/arrow.svg" alt="" />
+                </div>
+                <p class="text-lg">START A PROJECT</p>
+              </div>
+            </a>
+            <div id="menu" class="z-10 flex items-center gap-2 cursor-pointer">
+              <div
+                id="hamBurgerMenu"
+                class="!blur-none hover:h-8 hover:w-8 transition-all duration-500 h-7 w-7 bg-black rounded-full flex flex-col gap-1 justify-center items-center p-2"
+              >
+                <div id="bar" class="h-1 w-4 bg-white rounded-lg"></div>
+                <div id="bar" class="h-1 w-4 bg-white rounded-lg"></div>
+                <div id="bar" class="h-1 w-4 bg-white rounded-lg"></div>
+              </div>
+              <p class="text-lg">MENU</p>
+            </div>
+          </div>
+        </header>
+        <div id="wholeParent">
+          <div
+            id="heroSection"
+            class="sm:flex sm:mt-24 justify-center items-center"
+          >
+            <div id="intro" class="pt-9">
+              <h1 class="text-5xl sm:text-6xl font-bold pb-3">
+                I create digital product design experiences
+              </h1>
+              <p class="text-base pb-7">
+                With best-in-class design and engineering, my work maximizes
+                value by putting your customers at the center of everything I
+                do.
+              </p>
+              <button
+                id="talkbtn"
+                class="rounded-lg bg-black py-4 px-9 text-white hover:bg-white hover:text-black border border-black"
+              >
+                Let's Talk
+              </button>
+              <a href="#work"
+                ><div
+                  id="downarrow"
+                  class="mt-16 w-14 h-14 rounded-full border-black border-2 flex justify-center items-center"
+                >
+                  <img
+                    src="../assets/arrow.svg"
+                    alt=""
+                    class="h-6 w-6 rotate-90"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              id="faceImg"
+              class="w-full flex flex-col justify-center items-center sm:relative"
+            >
+              <div
+                id="yellowBox"
+                class="flex items-center justify-center w-80 h-[432px] bg-yellow-300 border border-black rounded-[235px] overflow-hidden relative"
+              >
+                <img
+                  src="../assets/img/portrait.svg"
+                  alt=""
+                  class="absolute bottom-0"
+                />
+              </div>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              >
+                <div
+                  id="greenPlay"
+                  class="transition-all duration-1000 hover:-rotate-[360deg] w-40 h-40 xs:h-24 xs:w-24 md:w-40 md:h-40 bg-green-300 rounded-full flex justify-center items-center mt-10 sm:absolute right-8 -top-5"
+                >
+                  <img src="../assets/icons/play.svg" alt="" />
+                  <div id="circleText" class="absolute">
+                    &nbsp; &nbsp; WATCH VIDEO &nbsp; &nbsp; WATCH VIDEO &nbsp;
+                    &nbsp;WATCH VIDEO&nbsp; &nbsp;
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="../assets/img/BG.svg"
+        alt=""
+        class="bottom-0 mt-2 hidden sm:inline-block"
+      />
+      <img
+        src="../assets/img/BG-mobile.svg"
+        alt=""
+        class="pt-4 sm:hidden flex justify-center w-full"
+      />
+    </section>
+
+    <section id="work">
+      <div id="work-parent" class="container py-24">
+        <div
+          id="design-provide"
+          class="flex flex-col sm:flex-row gap-3 sm:gap-32 mb-12"
+        >
+          <p class="text-3xl font-bold leading-8">
+            Design services I am providing
+          </p>
+          <p class="text-sm leading-6 text-zinc-500">
+            Design services I am providing. With best-in-class design and
+            engineering, my work maximizes value by putting your customers at
+            the center of everything I do.
+          </p>
+        </div>
+        <div id="3design">
+          <div
+            id="web"
+            class="group relative text-zinc-500 group text-lg flex flex-col gap-3 sm:grid grid-cols-3 py-7"
+          >
+            <p class="hover:text-violet-500 text-3xl font-bold text-black">
+              Web Design
+            </p>
+            <p>20 Project Completed</p>
+            <p>3 Running</p>
+            <img
+              id="hoverImg"
+              src="../assets/img/hover.svg"
+              alt=""
+              class="z-10 hidden group-hover:block absolute right-0 -top-10 transition-opacity group-hover:opacity-100 opacity-0"
+            />
+          </div>
+          <hr class="w-full border-2" />
+          <div
+            id="web"
+            class="relative text-zinc-500 group text-lg flex flex-col gap-3 sm:grid grid-cols-3 my-7"
+          >
+            <p class="hover:text-violet-500 text-3xl font-bold text-black">
+              Mobile Design
+            </p>
+            <p>20 Project Completed</p>
+            <p>3 Running</p>
+            <img
+              id="hoverImg"
+              src="../assets/img/hover.svg"
+              alt=""
+              class="z-10 absolute right-0 -top-10 transition-opacity group-hover:opacity-100 opacity-0"
+            />
+          </div>
+          <hr class="w-full border-2" />
+          <div
+            id="web"
+            class="relative text-zinc-500 group text-lg flex flex-col gap-3 sm:grid grid-cols-3 my-7"
+          >
+            <p class="hover:text-violet-500 text-3xl font-bold text-black">
+              Web App Design
+            </p>
+            <p>20 Project Completed</p>
+            <p>3 Running</p>
+            <img
+              id="hoverImg"
+              src="../assets/img/hover.svg"
+              alt=""
+              class="z-10 absolute right-0 -top-10 transition-opacity group-hover:opacity-100 opacity-0"
+            />
+          </div>
+          <hr class="w-full border-2" />
+          <div
+            id="web"
+            class="relative text-zinc-500 group text-lg flex flex-col gap-3 sm:grid grid-cols-3 my-7"
+          >
+            <p class="hover:text-violet-500 text-3xl font-bold text-black">
+              Branding
+            </p>
+            <p>20 Project Completed</p>
+            <p>3 Running</p>
+            <img
+              id="hoverImg"
+              src="../assets/img/hover.svg"
+              alt=""
+              class="z-10 absolute right-0 -top-10 transition-opacity group-hover:opacity-100 opacity-0"
+            />
+          </div>
+          <hr class="w-full border-2" />
+        </div>
+      </div>
+    </section>
+
+    <section id="latest">
+      <div id="latest-parent" class="container sm:grid grid-cols-2 gap-5">
+        <div id="info-purpleBox" class="flex flex-col gap-5">
+          <p class="text-2xl sm:text-5xl font-bold mb-3">
+            My latest project that lives on the net.
+          </p>
+          <p class="text-sm sm:text-lg leading-6 text-zinc-500">
+            Let’s have look on my latest project that lives on the internet in
+            recent times. I am providing the best design services for you.
+          </p>
+          <div
+            id="purple-box"
+            class="bg-violet-400 p-5 rounded-xl w-auto h-fit transition-transform duration-500 hover:shadow-lg hover:-translate-y-5 hover:text-white hover:bg-green-500"
+          >
+            <p class="text-lg sm:text-3xl font-bold">
+              Podcast Mobile App Design
+            </p>
+            <p class="text-sm">Podcast, Mobile App</p>
+            <div
+              id="img-div"
+              class="mt-5 rounded-xl border border-black w-full overflow-hidden"
+            >
+              <img src="../assets/img/ui-img.png" alt="" class="object-cover" />
+            </div>
+          </div>
+        </div>
+
+        <div id="boxes-y-o" class="flex flex-col justify-between gap-5 mt-5">
+          <div
+            id="yellow-box"
+            class="bg-amber-300 flex-auto p-5 rounded-xl transition-transform duration-500 hover:shadow-lg hover:-translate-y-5 hover:text-white hover:bg-green-500"
+          >
+            <p class="text-lg font-bold">Ad Tools Website Design</p>
+            <p class="text-sm">Ad Tool, Web Design</p>
+            <div
+              id="y-img-div"
+              class="mt-5 pt-72 rounded-xl border border-black relative overflow-hidden"
+            >
+              <img
+                src="../assets/img/y-img.jpg"
+                alt=""
+                class="object-cover w-full h-full absolute inset-0"
+              />
+            </div>
+          </div>
+
+          <div
+            id="orange-box"
+            class="bg-orange-500 flex-auto p-5 rounded-xl h-fit transition-transform duration-500 hover:shadow-lg hover:-translate-y-5 hover:text-white hover:bg-green-500"
+          >
+            <p class="text-lg font-bold">Doctor Web App Design</p>
+            <p class="text-sm">Doctor, Web App</p>
+            <div
+              id="o-img-div"
+              class="mt-5 pt-72 rounded-xl border border-black relative h-1/3 overflow-hidden"
+            >
+              <img
+                src="../assets/img/y-img.jpg"
+                alt=""
+                class="object-cover w-full h-full absolute inset-0"
+              />
+            </div>
+          </div>
+          <button
+            id="projectbtn"
+            class="rounded-lg bg-black py-4 px-9 w-fit text-white hover:bg-white hover:text-black hover:border-black hover:border"
+          >
+            All Project
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="deliver">
+      <div
+        id="deliver-parent"
+        class="container my-44 sm:grid grid-cols-2 gap-32"
+      >
+        <div id="part-1">
+          <p class="text-3xl sm:text-5xl font-bold">
+            How I deliver digital products.
+          </p>
+          <p class="text-zinc-500 text-sm sm:text-lg leading-6 py-3">
+            Through each phase of my engagement, I utilize focused teams that
+            combine experience design, modern engineering, and iterative
+            program.
+          </p>
+        </div>
+        <div id="part-2" class="sm:grid grid-cols-3 gap-8">
+          <div id="pc" class="flex flex-col text-base gap-1">
+            <div
+              id="p-1"
+              class="bg-violet-500 w-11 h-11 flex justify-center items-center rounded-full my-3"
+            >
+              01
+            </div>
+            <p class="font-bold sm:text-3xl">Create</p>
+            <p class="text-zinc-500">
+              Discovery, strategy, and experience design that enables stronger
+              customer connections.
+            </p>
+          </div>
+          <div id="pc" class="flex flex-col text-base gap-1">
+            <div
+              id="p-2"
+              class="bg-amber-300 w-11 h-11 flex flex-col justify-center items-center rounded-full my-3"
+            >
+              02
+            </div>
+            <p class="sm:text-3xl font-bold">Build</p>
+            <p class="text-zinc-500">
+              Develop modern technology and launch experiences that converge
+              with enterprise standards.
+            </p>
+          </div>
+          <div id="pc" class="flex flex-col text-base gap-1">
+            <div
+              id="p-3"
+              class="bg-orange-400 w-11 h-11 flex flex-col justify-center items-center rounded-full my-3"
+            >
+              03
+            </div>
+            <p class="sm:text-3xl font-bold">Evolve</p>
+            <p class="text-zinc-500">
+              Embedded, expert teams working alongside you to continue to
+              iterate and maximize customer value.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="amazing">
+      <div id="amazing-parent" class="container text-zinc-500 grid gap-16">
+        <div id="am-part-1" class="sm:grid grid-cols-2 gap-32">
+          <p class="text-3xl sm:text-5xl text-black font-bold">
+            My amazing design rewards list
+          </p>
+          <p class="text-lg">
+            Design services I am providing. With best-in-class design and
+            engineering, my work maximizes value by putting your customers at
+            the center of everything I do.
+          </p>
+        </div>
+        <div id="am-part-2" class="sm:flex justify-between items-start">
+          <div id="awwwards" class="flex flex-col gap-3 my-7">
+            <p class="text-base sm:text-3xl text-black font-bold">
+              AWWWARDS (5)
+            </p>
+            <p>Lobar/ Winner of the day / 5 January 2022</p>
+            <p>FWA of the day / January 2022</p>
+            <p>FWA of the day / January 2022</p>
+            <p>FWA of the day / January 2022</p>
+            <p>FWA of the day / January 2022</p>
+          </div>
+          <div id="awwwards" class="flex flex-col gap-3 my-7">
+            <p class="text-base sm:text-3xl text-black font-bold">FWA (3)</p>
+            <p>FWA of the day / January 2022</p>
+            <p>FWA of the day / January 2022</p>
+            <p>FWA of the day / January 2022</p>
+          </div>
+          <div id="awwwards" class="flex flex-col gap-3 my-7">
+            <p class="text-base sm:text-3xl text-black font-bold">CSSDA (4)</p>
+            <p>Lobar/ Winner of the day / 5 January 2022</p>
+
+            <p>FWA of the day / January 2022</p>
+            <p>FWA of the day / January 2022</p>
+            <p>FWA of the day / January 2022</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="honorable">
+      <div
+        id="honorable"
+        class="container text-zinc-500 text-base sm:grid grid-cols-2 gap-32"
+      >
+        <div id="honorable-client" class="flex flex-col gap-5">
+          <p class="text-3xl sm:text-5xl text-black font-bold">
+            My honorable clients across the globe
+          </p>
+          <p class="text-lg text-zinc-500 leading-7">
+            Through each phase of my engagement, I utilize focused teams that
+            combine experience design, modern engineering, and iterative
+            program.
+          </p>
+        </div>
+        <div
+          id="logo-img"
+          class="my-7 flex flex-col sm:flex-wrap md:grid grid-cols-3 gap-5 sm:gap-8"
+        >
+          <div
+            id="togo"
+            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+          >
+            <div
+              id="togo-img"
+              class="border-b border-black h-full w-full flex items-center justify-center"
+            >
+              <img src="../assets/logo/togo.svg" alt="" />
+            </div>
+            <p>Togo</p>
+          </div>
+          <div
+            id="indeed"
+            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+          >
+            <div
+              id="indeed-img"
+              class="border-b border-black h-full w-full flex items-center justify-center"
+            >
+              <img src="../assets/logo/indeed.svg" alt="" />
+            </div>
+            <p>Indeed</p>
+          </div>
+          <div
+            id="fer"
+            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+          >
+            <div
+              id="fer-img"
+              class="border-b border-black h-full w-full flex items-center justify-center"
+            >
+              <img src="../assets/logo/fer.svg" alt="" />
+            </div>
+            <p>Freixent</p>
+          </div>
+          <div
+            id="netflix"
+            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+          >
+            <div
+              id="netflix"
+              class="border-b border-black h-full w-full flex items-center justify-center"
+            >
+              <img src="../assets/logo/netflix.svg" alt="" />
+            </div>
+            <p>Netflix</p>
+          </div>
+
+          <div
+            id="shin"
+            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+          >
+            <div
+              id="shin-img"
+              class="border-b border-black h-full w-full flex items-center justify-center"
+            >
+              <img src="../assets/logo/shin.svg" alt="" />
+            </div>
+            <p>Shin Etsu</p>
+          </div>
+          <div
+            id="artex"
+            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+          >
+            <div
+              id="artex"
+              class="border-b border-black h-full w-full flex items-center justify-center"
+            >
+              <img src="../assets/logo/artex.svg" alt="" />
+            </div>
+            <p>Artex</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <section id="footer" class="bg-orange-400">
+        <div id="footer-parent" class="container py-14">
+          <div id="footer-info" class="mb-9 sm:grid grid-cols-2 gap-32">
+            <p class="font-bold text-4xl">Interested to working with me?</p>
+            <div id="last-info">
+              <p class="pt-3 pb-7">
+                Through each phase of my engagement, I utilize focused teams
+                that combine experience design, modern engineering, and
+                iterative program.
+              </p>
+              <button
+                id="talkbtn"
+                class="rounded-lg bg-black py-4 px-9 text-white hover:bg-white hover:text-black border border-black"
+              >
+                Let's Talk
+              </button>
+            </div>
+          </div>
+          <div id="socialBtn" class="">
+            <p class="text-base font-bold py-5">Say hi!</p>
+            <div id="btns" class="flex flex-col sm:flex-row flex-wrap gap-5">
+              <button
+                id="talkbtn"
+                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+              >
+                Email me
+              </button>
+              <button
+                id="facebtn"
+                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+              >
+                Facebook
+              </button>
+              <button
+                id="instagram"
+                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+              >
+                Instagram
+              </button>
+              <button
+                id="twitter"
+                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+              >
+                Twitter
+              </button>
+              <button
+                id="linkedIn"
+                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+              >
+                LinkedIn
+              </button>
+              <button
+                id="Dribble"
+                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+              >
+                Dribble
+              </button>
+              <button
+                id="behancebtn"
+                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+              >
+                Behance
+              </button>
+            </div>
+          </div>
+          <div class="h-0 border border-black my-7"></div>
+          <div id="copyright" class="flex justify-center items-center py-3">
+            <p>Copyright © 2022 UIHUT all rights reserved.</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
