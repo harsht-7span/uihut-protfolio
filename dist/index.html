@@ -15,11 +15,11 @@
   <body class="overflow-x-hidden">
     <div
       id="menuListMobile"
-      class="z-10 fixed left-full w-full h-screen transition-all duration-500 text-white text-5xl"
+      class="fixed z-10 w-full h-screen text-5xl text-white transition-all duration-500 left-full"
     >
       <ul
         id="menu"
-        class="flex flex-col gap-20 justify-center ab h-full my-auto"
+        class="flex flex-col justify-center h-full gap-20 my-auto ab"
       >
         <li><a href="#work">Work</a></li>
         <li><a href="#latest">Services</a></li>
@@ -30,21 +30,21 @@
 
     <section id="header" class="bg-violet-500 h-fit">
       <div id="hearderParent" class="container pt-7 sm:pt-11">
-        <header class="flex justify-between items-center">
+        <header class="flex items-center justify-between">
           <a href="#footer"
             ><div id="brand" class="text-2xl font-bold">Harsh Tank</div></a
           >
-          <div id="leftNav" class="flex justify-between items-center gap-10">
+          <div id="leftNav" class="flex items-center justify-between gap-10">
             <a href="#latest">
               <div
                 id="startproject"
-                class="group hidden sm:flex items-center justify-center gap-2"
+                class="items-center justify-center hidden gap-2 group sm:flex"
               >
                 <div
                   id="circle-arrow "
-                  class="group-hover:scale-150 group-hover:rotate-90 w-5 h-5 rounded-full border-black border flex items-center justify-center transition-all duration-500"
+                  class="flex items-center justify-center w-5 h-5 transition-all duration-500 border border-black rounded-full group-hover:scale-150 group-hover:rotate-90"
                 >
-                  <img src="../assets/arrow.svg" alt="" />
+                  <img src="./assets/arrow.svg" alt="" />
                 </div>
                 <p class="text-lg">START A PROJECT</p>
               </div>
@@ -54,9 +54,9 @@
                 id="hamBurgerMenu"
                 class="!blur-none hover:h-8 hover:w-8 transition-all duration-500 h-7 w-7 bg-black rounded-full flex flex-col gap-1 justify-center items-center p-2"
               >
-                <div id="bar" class="h-1 w-4 bg-white rounded-lg"></div>
-                <div id="bar" class="h-1 w-4 bg-white rounded-lg"></div>
-                <div id="bar" class="h-1 w-4 bg-white rounded-lg"></div>
+                <div id="bar" class="w-4 h-1 bg-white rounded-lg"></div>
+                <div id="bar" class="w-4 h-1 bg-white rounded-lg"></div>
+                <div id="bar" class="w-4 h-1 bg-white rounded-lg"></div>
               </div>
               <p class="text-lg">MENU</p>
             </div>
@@ -65,10 +65,10 @@
         <div id="wholeParent">
           <div
             id="heroSection"
-            class="sm:flex sm:mt-24 justify-center items-center"
+            class="items-center justify-center sm:flex sm:mt-24"
           >
             <div id="intro" class="pt-9">
-              <h1 class="text-5xl sm:text-6xl font-bold pb-3">
+              <h1 class="pb-3 text-5xl font-bold sm:text-6xl">
                 I create digital product design experiences
               </h1>
               <p class="text-base pb-7">
@@ -78,33 +78,33 @@
               </p>
               <button
                 id="talkbtn"
-                class="rounded-lg bg-black py-4 px-9 text-white hover:bg-white hover:text-black border border-black"
+                class="py-4 text-white bg-black border border-black rounded-lg px-9 hover:bg-white hover:text-black"
               >
                 Let's Talk
               </button>
               <a href="#work"
                 ><div
                   id="downarrow"
-                  class="mt-16 w-14 h-14 rounded-full border-black border-2 flex justify-center items-center"
+                  class="flex items-center justify-center mt-16 border-2 border-black rounded-full w-14 h-14"
                 >
                   <img
-                    src="../assets/arrow.svg"
+                    src="./assets/arrow.svg"
                     alt=""
-                    class="h-6 w-6 rotate-90"
+                    class="w-6 h-6 rotate-90"
                   />
                 </div>
               </a>
             </div>
             <div
               id="faceImg"
-              class="w-full flex flex-col justify-center items-center sm:relative"
+              class="flex flex-col items-center justify-center w-full sm:relative"
             >
               <div
                 id="yellowBox"
                 class="flex items-center justify-center w-80 h-[432px] bg-yellow-300 border border-black rounded-[235px] overflow-hidden relative"
               >
                 <img
-                  src="../assets/img/portrait.svg"
+                  src="./assets/img/portrait.svg"
                   alt=""
                   class="absolute bottom-0"
                 />
@@ -117,7 +117,7 @@
                   id="greenPlay"
                   class="transition-all duration-1000 hover:-rotate-[360deg] w-40 h-40 xs:h-24 xs:w-24 md:w-40 md:h-40 bg-green-300 rounded-full flex justify-center items-center mt-10 sm:absolute right-8 -top-5"
                 >
-                  <img src="../assets/icons/play.svg" alt="" />
+                  <img src="./assets/icons/play.svg" alt="" />
                   <div id="circleText" class="absolute">
                     &nbsp; &nbsp; WATCH VIDEO &nbsp; &nbsp; WATCH VIDEO &nbsp;
                     &nbsp;WATCH VIDEO&nbsp; &nbsp;
@@ -130,14 +130,14 @@
       </div>
 
       <img
-        src="../assets/img/BG.svg"
+        src="./assets/img/BG.svg"
         alt=""
-        class="bottom-0 mt-2 hidden sm:inline-block"
+        class="bottom-0 hidden mt-2 sm:inline-block"
       />
       <img
-        src="../assets/img/BG-mobile.svg"
+        src="./assets/img/BG-mobile.svg"
         alt=""
-        class="pt-4 sm:hidden flex justify-center w-full"
+        class="flex justify-center w-full pt-4 sm:hidden"
       />
     </section>
 
@@ -145,7 +145,7 @@
       <div id="work-parent" class="container py-24">
         <div
           id="design-provide"
-          class="flex flex-col sm:flex-row gap-3 sm:gap-32 mb-12"
+          class="flex flex-col gap-3 mb-12 sm:flex-row sm:gap-32"
         >
           <p class="text-3xl font-bold leading-8">
             Design services I am providing
@@ -159,69 +159,69 @@
         <div id="3design">
           <div
             id="web"
-            class="group relative text-zinc-500 group text-lg flex flex-col gap-3 sm:grid grid-cols-3 py-7"
+            class="relative flex flex-col grid-cols-3 gap-3 text-lg group text-zinc-500 sm:grid py-7"
           >
-            <p class="hover:text-violet-500 text-3xl font-bold text-black">
+            <p class="text-3xl font-bold text-black hover:text-violet-500">
               Web Design
             </p>
             <p>20 Project Completed</p>
             <p>3 Running</p>
             <img
               id="hoverImg"
-              src="../assets/img/hover.svg"
+              src="./assets/img/hover.svg"
               alt=""
-              class="z-10 hidden group-hover:block absolute right-0 -top-10 transition-opacity group-hover:opacity-100 opacity-0"
+              class="absolute right-0 z-10 hidden transition-opacity opacity-0 group-hover:block -top-10 group-hover:opacity-100"
             />
           </div>
           <hr class="w-full border-2" />
           <div
             id="web"
-            class="relative text-zinc-500 group text-lg flex flex-col gap-3 sm:grid grid-cols-3 my-7"
+            class="relative flex flex-col grid-cols-3 gap-3 text-lg text-zinc-500 group sm:grid my-7"
           >
-            <p class="hover:text-violet-500 text-3xl font-bold text-black">
+            <p class="text-3xl font-bold text-black hover:text-violet-500">
               Mobile Design
             </p>
             <p>20 Project Completed</p>
             <p>3 Running</p>
             <img
               id="hoverImg"
-              src="../assets/img/hover.svg"
+              src="./assets/img/hover.svg"
               alt=""
-              class="z-10 absolute right-0 -top-10 transition-opacity group-hover:opacity-100 opacity-0"
+              class="absolute right-0 z-10 transition-opacity opacity-0 -top-10 group-hover:opacity-100"
             />
           </div>
           <hr class="w-full border-2" />
           <div
             id="web"
-            class="relative text-zinc-500 group text-lg flex flex-col gap-3 sm:grid grid-cols-3 my-7"
+            class="relative flex flex-col grid-cols-3 gap-3 text-lg text-zinc-500 group sm:grid my-7"
           >
-            <p class="hover:text-violet-500 text-3xl font-bold text-black">
+            <p class="text-3xl font-bold text-black hover:text-violet-500">
               Web App Design
             </p>
             <p>20 Project Completed</p>
             <p>3 Running</p>
             <img
               id="hoverImg"
-              src="../assets/img/hover.svg"
+              src="./assets/img/hover.svg"
               alt=""
-              class="z-10 absolute right-0 -top-10 transition-opacity group-hover:opacity-100 opacity-0"
+              class="absolute right-0 z-10 transition-opacity opacity-0 -top-10 group-hover:opacity-100"
             />
           </div>
           <hr class="w-full border-2" />
           <div
             id="web"
-            class="relative text-zinc-500 group text-lg flex flex-col gap-3 sm:grid grid-cols-3 my-7"
+            class="relative flex flex-col grid-cols-3 gap-3 text-lg text-zinc-500 group sm:grid my-7"
           >
-            <p class="hover:text-violet-500 text-3xl font-bold text-black">
+            <p class="text-3xl font-bold text-black hover:text-violet-500">
               Branding
             </p>
             <p>20 Project Completed</p>
             <p>3 Running</p>
             <img
               id="hoverImg"
-              src="../assets/img/hover.svg"
+              src="./assets/img/hover.svg"
               alt=""
-              class="z-10 absolute right-0 -top-10 transition-opacity group-hover:opacity-100 opacity-0"
+              class="absolute right-0 z-10 transition-opacity opacity-0 -top-10 group-hover:opacity-100"
             />
           </div>
           <hr class="w-full border-2" />
@@ -230,28 +230,28 @@
     </section>
 
     <section id="latest">
-      <div id="latest-parent" class="container sm:grid grid-cols-2 gap-5">
+      <div id="latest-parent" class="container grid-cols-2 gap-5 sm:grid">
         <div id="info-purpleBox" class="flex flex-col gap-5">
-          <p class="text-2xl sm:text-5xl font-bold mb-3">
+          <p class="mb-3 text-2xl font-bold sm:text-5xl">
             My latest project that lives on the net.
           </p>
-          <p class="text-sm sm:text-lg leading-6 text-zinc-500">
+          <p class="text-sm leading-6 sm:text-lg text-zinc-500">
             Let’s have look on my latest project that lives on the internet in
             recent times. I am providing the best design services for you.
           </p>
           <div
             id="purple-box"
-            class="bg-violet-400 p-5 rounded-xl w-auto h-fit transition-transform duration-500 hover:shadow-lg hover:-translate-y-5 hover:text-white hover:bg-green-500"
+            class="w-auto p-5 transition-transform duration-500 bg-violet-400 rounded-xl h-fit hover:shadow-lg hover:-translate-y-5 hover:text-white hover:bg-green-500"
           >
-            <p class="text-lg sm:text-3xl font-bold">
+            <p class="text-lg font-bold sm:text-3xl">
               Podcast Mobile App Design
             </p>
             <p class="text-sm">Podcast, Mobile App</p>
             <div
               id="img-div"
-              class="mt-5 rounded-xl border border-black w-full overflow-hidden"
+              class="w-full mt-5 overflow-hidden border border-black rounded-xl"
             >
-              <img src="../assets/img/ui-img.png" alt="" class="object-cover" />
+              <img src="./assets/img/ui-img.png" alt="" class="object-cover" />
             </div>
           </div>
         </div>
@@ -259,42 +259,42 @@
         <div id="boxes-y-o" class="flex flex-col justify-between gap-5 mt-5">
           <div
             id="yellow-box"
-            class="bg-amber-300 flex-auto p-5 rounded-xl transition-transform duration-500 hover:shadow-lg hover:-translate-y-5 hover:text-white hover:bg-green-500"
+            class="flex-auto p-5 transition-transform duration-500 bg-amber-300 rounded-xl hover:shadow-lg hover:-translate-y-5 hover:text-white hover:bg-green-500"
           >
             <p class="text-lg font-bold">Ad Tools Website Design</p>
             <p class="text-sm">Ad Tool, Web Design</p>
             <div
               id="y-img-div"
-              class="mt-5 pt-72 rounded-xl border border-black relative overflow-hidden"
+              class="relative mt-5 overflow-hidden border border-black pt-72 rounded-xl"
             >
               <img
-                src="../assets/img/y-img.jpg"
+                src="./assets/img/y-img.jpg"
                 alt=""
-                class="object-cover w-full h-full absolute inset-0"
+                class="absolute inset-0 object-cover w-full h-full"
               />
             </div>
           </div>
 
           <div
             id="orange-box"
-            class="bg-orange-500 flex-auto p-5 rounded-xl h-fit transition-transform duration-500 hover:shadow-lg hover:-translate-y-5 hover:text-white hover:bg-green-500"
+            class="flex-auto p-5 transition-transform duration-500 bg-orange-500 rounded-xl h-fit hover:shadow-lg hover:-translate-y-5 hover:text-white hover:bg-green-500"
           >
             <p class="text-lg font-bold">Doctor Web App Design</p>
             <p class="text-sm">Doctor, Web App</p>
             <div
               id="o-img-div"
-              class="mt-5 pt-72 rounded-xl border border-black relative h-1/3 overflow-hidden"
+              class="relative mt-5 overflow-hidden border border-black pt-72 rounded-xl h-1/3"
             >
               <img
-                src="../assets/img/y-img.jpg"
+                src="./assets/img/y-img.jpg"
                 alt=""
-                class="object-cover w-full h-full absolute inset-0"
+                class="absolute inset-0 object-cover w-full h-full"
               />
             </div>
           </div>
           <button
             id="projectbtn"
-            class="rounded-lg bg-black py-4 px-9 w-fit text-white hover:bg-white hover:text-black hover:border-black hover:border"
+            class="py-4 text-white bg-black rounded-lg px-9 w-fit hover:bg-white hover:text-black hover:border-black hover:border"
           >
             All Project
           </button>
@@ -305,23 +305,23 @@
     <section id="deliver">
       <div
         id="deliver-parent"
-        class="container my-44 sm:grid grid-cols-2 gap-32"
+        class="container grid-cols-2 gap-32 my-44 sm:grid"
       >
         <div id="part-1">
-          <p class="text-3xl sm:text-5xl font-bold">
+          <p class="text-3xl font-bold sm:text-5xl">
             How I deliver digital products.
           </p>
-          <p class="text-zinc-500 text-sm sm:text-lg leading-6 py-3">
+          <p class="py-3 text-sm leading-6 text-zinc-500 sm:text-lg">
             Through each phase of my engagement, I utilize focused teams that
             combine experience design, modern engineering, and iterative
             program.
           </p>
         </div>
-        <div id="part-2" class="sm:grid grid-cols-3 gap-8">
-          <div id="pc" class="flex flex-col text-base gap-1">
+        <div id="part-2" class="grid-cols-3 gap-8 sm:grid">
+          <div id="pc" class="flex flex-col gap-1 text-base">
             <div
               id="p-1"
-              class="bg-violet-500 w-11 h-11 flex justify-center items-center rounded-full my-3"
+              class="flex items-center justify-center my-3 rounded-full bg-violet-500 w-11 h-11"
             >
               01
             </div>
@@ -331,27 +331,27 @@
               customer connections.
             </p>
           </div>
-          <div id="pc" class="flex flex-col text-base gap-1">
+          <div id="pc" class="flex flex-col gap-1 text-base">
             <div
               id="p-2"
-              class="bg-amber-300 w-11 h-11 flex flex-col justify-center items-center rounded-full my-3"
+              class="flex flex-col items-center justify-center my-3 rounded-full bg-amber-300 w-11 h-11"
             >
               02
             </div>
-            <p class="sm:text-3xl font-bold">Build</p>
+            <p class="font-bold sm:text-3xl">Build</p>
             <p class="text-zinc-500">
               Develop modern technology and launch experiences that converge
               with enterprise standards.
             </p>
           </div>
-          <div id="pc" class="flex flex-col text-base gap-1">
+          <div id="pc" class="flex flex-col gap-1 text-base">
             <div
               id="p-3"
-              class="bg-orange-400 w-11 h-11 flex flex-col justify-center items-center rounded-full my-3"
+              class="flex flex-col items-center justify-center my-3 bg-orange-400 rounded-full w-11 h-11"
             >
               03
             </div>
-            <p class="sm:text-3xl font-bold">Evolve</p>
+            <p class="font-bold sm:text-3xl">Evolve</p>
             <p class="text-zinc-500">
               Embedded, expert teams working alongside you to continue to
               iterate and maximize customer value.
@@ -362,9 +362,9 @@
     </section>
 
     <section id="amazing">
-      <div id="amazing-parent" class="container text-zinc-500 grid gap-16">
-        <div id="am-part-1" class="sm:grid grid-cols-2 gap-32">
-          <p class="text-3xl sm:text-5xl text-black font-bold">
+      <div id="amazing-parent" class="container grid gap-16 text-zinc-500">
+        <div id="am-part-1" class="grid-cols-2 gap-32 sm:grid">
+          <p class="text-3xl font-bold text-black sm:text-5xl">
             My amazing design rewards list
           </p>
           <p class="text-lg">
@@ -373,9 +373,9 @@
             the center of everything I do.
           </p>
         </div>
-        <div id="am-part-2" class="sm:flex justify-between items-start">
+        <div id="am-part-2" class="items-start justify-between sm:flex">
           <div id="awwwards" class="flex flex-col gap-3 my-7">
-            <p class="text-base sm:text-3xl text-black font-bold">
+            <p class="text-base font-bold text-black sm:text-3xl">
               AWWWARDS (5)
             </p>
             <p>Lobar/ Winner of the day / 5 January 2022</p>
@@ -385,13 +385,13 @@
             <p>FWA of the day / January 2022</p>
           </div>
           <div id="awwwards" class="flex flex-col gap-3 my-7">
-            <p class="text-base sm:text-3xl text-black font-bold">FWA (3)</p>
+            <p class="text-base font-bold text-black sm:text-3xl">FWA (3)</p>
             <p>FWA of the day / January 2022</p>
             <p>FWA of the day / January 2022</p>
             <p>FWA of the day / January 2022</p>
           </div>
           <div id="awwwards" class="flex flex-col gap-3 my-7">
-            <p class="text-base sm:text-3xl text-black font-bold">CSSDA (4)</p>
+            <p class="text-base font-bold text-black sm:text-3xl">CSSDA (4)</p>
             <p>Lobar/ Winner of the day / 5 January 2022</p>
 
             <p>FWA of the day / January 2022</p>
@@ -405,13 +405,13 @@
     <section id="honorable">
       <div
         id="honorable"
-        class="container text-zinc-500 text-base sm:grid grid-cols-2 gap-32"
+        class="container grid-cols-2 gap-32 text-base text-zinc-500 sm:grid"
       >
         <div id="honorable-client" class="flex flex-col gap-5">
-          <p class="text-3xl sm:text-5xl text-black font-bold">
+          <p class="text-3xl font-bold text-black sm:text-5xl">
             My honorable clients across the globe
           </p>
-          <p class="text-lg text-zinc-500 leading-7">
+          <p class="text-lg leading-7 text-zinc-500">
             Through each phase of my engagement, I utilize focused teams that
             combine experience design, modern engineering, and iterative
             program.
@@ -419,78 +419,78 @@
         </div>
         <div
           id="logo-img"
-          class="my-7 flex flex-col sm:flex-wrap md:grid grid-cols-3 gap-5 sm:gap-8"
+          class="flex flex-col grid-cols-3 gap-5 my-7 sm:flex-wrap md:grid sm:gap-8"
         >
           <div
             id="togo"
-            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+            class="flex flex-col items-center justify-center border border-black w-44 sm:w-full h-44 rounded-xl"
           >
             <div
               id="togo-img"
-              class="border-b border-black h-full w-full flex items-center justify-center"
+              class="flex items-center justify-center w-full h-full border-b border-black"
             >
-              <img src="../assets/logo/togo.svg" alt="" />
+              <img src="./assets/logo/togo.svg" alt="" />
             </div>
             <p>Togo</p>
           </div>
           <div
             id="indeed"
-            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+            class="flex flex-col items-center justify-center border border-black w-44 sm:w-full h-44 rounded-xl"
           >
             <div
               id="indeed-img"
-              class="border-b border-black h-full w-full flex items-center justify-center"
+              class="flex items-center justify-center w-full h-full border-b border-black"
             >
-              <img src="../assets/logo/indeed.svg" alt="" />
+              <img src="./assets/logo/indeed.svg" alt="" />
             </div>
             <p>Indeed</p>
           </div>
           <div
             id="fer"
-            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+            class="flex flex-col items-center justify-center border border-black w-44 sm:w-full h-44 rounded-xl"
           >
             <div
               id="fer-img"
-              class="border-b border-black h-full w-full flex items-center justify-center"
+              class="flex items-center justify-center w-full h-full border-b border-black"
             >
-              <img src="../assets/logo/fer.svg" alt="" />
+              <img src="./assets/logo/fer.svg" alt="" />
             </div>
             <p>Freixent</p>
           </div>
           <div
             id="netflix"
-            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+            class="flex flex-col items-center justify-center border border-black w-44 sm:w-full h-44 rounded-xl"
           >
             <div
               id="netflix"
-              class="border-b border-black h-full w-full flex items-center justify-center"
+              class="flex items-center justify-center w-full h-full border-b border-black"
             >
-              <img src="../assets/logo/netflix.svg" alt="" />
+              <img src="./assets/logo/netflix.svg" alt="" />
             </div>
             <p>Netflix</p>
           </div>
 
           <div
             id="shin"
-            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+            class="flex flex-col items-center justify-center border border-black w-44 sm:w-full h-44 rounded-xl"
           >
             <div
               id="shin-img"
-              class="border-b border-black h-full w-full flex items-center justify-center"
+              class="flex items-center justify-center w-full h-full border-b border-black"
             >
-              <img src="../assets/logo/shin.svg" alt="" />
+              <img src="./assets/logo/shin.svg" alt="" />
             </div>
             <p>Shin Etsu</p>
           </div>
           <div
             id="artex"
-            class="w-44 sm:w-full h-44 border border-black rounded-xl flex flex-col justify-center items-center"
+            class="flex flex-col items-center justify-center border border-black w-44 sm:w-full h-44 rounded-xl"
           >
             <div
               id="artex"
-              class="border-b border-black h-full w-full flex items-center justify-center"
+              class="flex items-center justify-center w-full h-full border-b border-black"
             >
-              <img src="../assets/logo/artex.svg" alt="" />
+              <img src="./assets/logo/artex.svg" alt="" />
             </div>
             <p>Artex</p>
           </div>
@@ -501,8 +501,8 @@
     <footer>
       <section id="footer" class="bg-orange-400">
         <div id="footer-parent" class="container py-14">
-          <div id="footer-info" class="mb-9 sm:grid grid-cols-2 gap-32">
-            <p class="font-bold text-4xl">Interested to working with me?</p>
+          <div id="footer-info" class="grid-cols-2 gap-32 mb-9 sm:grid">
+            <p class="text-4xl font-bold">Interested to working with me?</p>
             <div id="last-info">
               <p class="pt-3 pb-7">
                 Through each phase of my engagement, I utilize focused teams
@@ -511,61 +511,61 @@
               </p>
               <button
                 id="talkbtn"
-                class="rounded-lg bg-black py-4 px-9 text-white hover:bg-white hover:text-black border border-black"
+                class="py-4 text-white bg-black border border-black rounded-lg px-9 hover:bg-white hover:text-black"
               >
                 Let's Talk
               </button>
             </div>
           </div>
           <div id="socialBtn" class="">
-            <p class="text-base font-bold py-5">Say hi!</p>
-            <div id="btns" class="flex flex-col sm:flex-row flex-wrap gap-5">
+            <p class="py-5 text-base font-bold">Say hi!</p>
+            <div id="btns" class="flex flex-col flex-wrap gap-5 sm:flex-row">
               <button
                 id="talkbtn"
-                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+                class="py-4 font-bold border border-black rounded-lg w-fit px-9 hover:bg-white hover:text-black"
               >
                 Email me
               </button>
               <button
                 id="facebtn"
-                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+                class="py-4 font-bold border border-black rounded-lg w-fit px-9 hover:bg-white hover:text-black"
               >
                 Facebook
               </button>
               <button
                 id="instagram"
-                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+                class="py-4 font-bold border border-black rounded-lg w-fit px-9 hover:bg-white hover:text-black"
               >
                 Instagram
               </button>
               <button
                 id="twitter"
-                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+                class="py-4 font-bold border border-black rounded-lg w-fit px-9 hover:bg-white hover:text-black"
               >
                 Twitter
               </button>
               <button
                 id="linkedIn"
-                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+                class="py-4 font-bold border border-black rounded-lg w-fit px-9 hover:bg-white hover:text-black"
               >
                 LinkedIn
               </button>
               <button
                 id="Dribble"
-                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+                class="py-4 font-bold border border-black rounded-lg w-fit px-9 hover:bg-white hover:text-black"
               >
                 Dribble
               </button>
               <button
                 id="behancebtn"
-                class="w-fit rounded-lg border border-black py-4 px-9 font-bold hover:bg-white hover:text-black"
+                class="py-4 font-bold border border-black rounded-lg w-fit px-9 hover:bg-white hover:text-black"
               >
                 Behance
               </button>
             </div>
           </div>
           <div class="h-0 border border-black my-7"></div>
-          <div id="copyright" class="flex justify-center items-center py-3">
+          <div id="copyright" class="flex items-center justify-center py-3">
             <p>Copyright © 2022 UIHUT all rights reserved.</p>
           </div>
         </div>
