@@ -877,12 +877,14 @@ video {
   gap: 2rem;
 }
 
-.self-start {
-  align-self: flex-start;
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
-.self-baseline {
-  align-self: baseline;
+.self-start {
+  align-self: flex-start;
 }
 
 .overflow-hidden {
@@ -1036,6 +1038,11 @@ video {
   padding-bottom: 1.75rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pb-3 {
   padding-bottom: 0.75rem;
 }
@@ -1062,6 +1069,14 @@ video {
 
 .pt-9 {
   padding-top: 2.25rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-2xl {
@@ -1284,10 +1299,6 @@ button[id$="btn"]:hover {
     position: relative;
   }
 
-  .sm\:mt-24 {
-    margin-top: 6rem;
-  }
-
   .sm\:inline-block {
     display: inline-block;
   }
@@ -1324,8 +1335,16 @@ button[id$="btn"]:hover {
     gap: 2rem;
   }
 
+  .sm\:gap-0 {
+    gap: 0px;
+  }
+
   .sm\:pt-11 {
     padding-top: 2.75rem;
+  }
+
+  .sm\:pt-24 {
+    padding-top: 6rem;
   }
 
   .sm\:text-3xl {
@@ -1350,6 +1369,10 @@ button[id$="btn"]:hover {
 }
 
 @media (min-width: 992px) {
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:grid {
     display: grid;
   }
